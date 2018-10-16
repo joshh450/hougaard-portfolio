@@ -8,12 +8,15 @@ export default class App extends Component {
       <div className='app'>
           <div className="app__parallax">
               <Header />
-              {/* <img className="myPortfolioImage" src="/assets/myportfolioimage.jpg"/> */}
               <div className="initial-page-info">
                 <h1>Joshua Hougaard</h1>
                 <h2>React, Python and JavaScript Developer</h2>
               </div>
           </div>
+          <div className="app__parallax2"></div>
+          <div className="app__parallax3"></div>
+          <div className="app__parallax4"></div>
+
           <Footer />
       </div>
     );

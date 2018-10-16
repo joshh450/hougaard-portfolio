@@ -8,6 +8,20 @@
         background-image: url(../../static/assets/parallax.jpg);
         @include parallax;
         }
+
+    &__parallax2 {
+        background-image: url(../../static/assets/max-nelson-492729-unsplash.jpg);
+        @include parallax;
+        }
+
+    &__parallax3 {
+        background-image: url(../../static/assets/max-nelson-748768-unsplash.jpg);
+        @include parallax;
+        }
+    &__parallax4 {
+        background-image: url(../../static/assets/ales-nesetril-734016-unsplash.jpg);
+        @include parallax;
+        }
 }
 
 .logo {
@@ -32,14 +46,9 @@
     }
 }
 
-.myPortfolioImage {
-    width: 350px;
-    height: 500px;
-}
-
 .footer{
     background-color: black;
-    height: 300px;
+    height: 100vh;
     width: 100%;
     display: grid;
     grid-template-rows: 100px 1fr;
