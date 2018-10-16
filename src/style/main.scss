@@ -1,0 +1,75 @@
+@import 'parallax';
+
+.app {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+    &__parallax {
+        background-image: url(../../static/assets/parallax.jpg);
+        @include parallax;
+        }
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.header{
+    font-size: 1.1em;
+    background-color: rgba(0,0,0,0.15);
+    height: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+    &__rightColumn {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.myPortfolioImage {
+    width: 350px;
+    height: 500px;
+}
+
+.footer{
+    background-color: black;
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+
+    &__topRow {
+        display: grid;
+        margin-top: 30px;
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__logo {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+    }
+
+    &__bottomRow {
+        font-size: 1.1em;
+        display: grid;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        grid-template-rows: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
+    }
+}
+
+.initial-page-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: self-end;
+}
