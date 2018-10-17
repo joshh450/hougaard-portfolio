@@ -22,6 +22,12 @@ class Footer extends Component {
             <div className="footer__nav-link">
                 <div className='link__footer' to="/contact">Message</div>
             </div>
+            <div className="socialmedia__nav-links">
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-codepen"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
         </div>
       </div>
     );
