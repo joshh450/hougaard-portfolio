@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './header-footer/header';
+import TheHeader from './header-footer/stickyHeader';
 import Footer from './header-footer/footer';
 import PageOne from './web-pages/pageOne';
 import PageTwo from './web-pages/pageTwo';
@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <Header />
+        <TheHeader />
         <PageOne />
         <PageTwo />
         <PageThree />

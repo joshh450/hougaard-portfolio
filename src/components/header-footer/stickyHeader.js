@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
 import Clock from '../srcClock';
-
-class Header extends Component {
-  render() {
-    return (
-      <div className='header'>
+import 'react-sticky-header/styles.css';
+import StickyHeader from 'react-sticky-header';
+ 
+class TheHeader extends Component {
+    render() {
+        return (
+  <StickyHeader
+    header={
+        <div className='header'>
         <div className="header__leftColumn">
             <img className="header__logo" src="/assets/IMG_1112.jpg" />
         </div>
@@ -28,8 +32,11 @@ class Header extends Component {
             </div>
         </div>
       </div>
-    );
-  }
+    }
+  >
+  </StickyHeader>
+        );
+    }
 }
 
-export default Header;
+export default TheHeader;
