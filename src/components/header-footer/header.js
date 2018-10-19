@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import Clock from '../srcClock';
 
 class Header extends Component {
   render() {
     return (
       <div className='header'>
         <div className="header__leftColumn">
-            <img className="logo" src="/assets/IMG_1112.jpg" />
+            <img className="header__logo" src="/assets/IMG_1112.jpg" />
         </div>
 
                 
@@ -21,6 +22,9 @@ class Header extends Component {
             </div>
             <div className="header__nav-link">
                 <div className='link__header' to="/contact">Message</div>
+            </div>
+            <div className="header__nav-link">
+                <Clock />
             </div>
         </div>
       </div>

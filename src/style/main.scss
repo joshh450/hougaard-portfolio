@@ -9,12 +9,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-}
-
 .header{
     font-size: 1.1em;
     background-color: rgba(0,0,0,0.15);
@@ -23,9 +17,15 @@
     display: grid;
     grid-template-columns: 100px 1fr;
 
+    &__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
     &__rightColumn {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         justify-items: center;
         align-items: center;
     }
