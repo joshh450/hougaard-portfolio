@@ -4,7 +4,7 @@ class PageFour extends Component {
   render() {
     return (
       <div className='pageFour'>
-        <div className="app__parallax4">
+        <div className="pageFour__parallax">
           <div className="form">
                 <div className="form-group">
                     <input type="text" id="fullName" placeholder="Your name"></input>

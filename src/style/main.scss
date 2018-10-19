@@ -1,27 +1,12 @@
 @import 'parallax';
+@import 'pageOne';
+@import 'pageTwo';
+@import 'pageThree';
+@import 'pageFour';
 
 .app {
     color: white;
     font-family: 'Montserrat', sans-serif;
-
-    &__parallax {
-        background-image: url(../../static/assets/parallax.jpg);
-        @include parallax;
-    }
-
-    &__parallax2 {
-        background-image: url(../../static/assets/max-nelson-492729-unsplash.jpg);
-        @include parallax;
-        }
-
-    &__parallax3 {
-        background-image: url(../../static/assets/max-nelson-748768-unsplash.jpg);
-        @include parallax;
-        }
-    &__parallax4 {
-        background-image: url(../../static/assets/ales-nesetril-734016-unsplash.jpg);
-        @include parallax;
-        }
 }
 
 .logo {

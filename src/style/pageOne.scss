@@ -1,0 +1,8 @@
+@import 'parallax';
+
+.pageOne {
+    &__parallax {
+        background-image: url(../../static/assets/parallax.jpg);
+        @include parallax;
+    }
+}

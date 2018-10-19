@@ -1,0 +1,8 @@
+@import 'parallax';
+
+.pageFour {
+    &__parallax {
+        background-image: url(../../static/assets/ales-nesetril-734016-unsplash.jpg);
+        @include parallax;
+    }
+}

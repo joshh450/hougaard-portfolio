@@ -1,0 +1,8 @@
+@import 'parallax';
+
+.pageTwo {
+    &__parallax {
+        background-image: url(../../static/assets/max-nelson-492729-unsplash.jpg);
+        @include parallax;
+    }
+}

@@ -4,7 +4,7 @@ class PageTwo extends Component {
   render() {
     return (
       <div className='pageTwo'>
-        <div className="app__parallax2">
+        <div className="pageTwo__parallax">
                 <h1>Portfolio</h1>
                 <h3>Sensuous Sandwich Project</h3>
                 <p>Development team and I built a demo site for Sensuous Sandwich in one day.</p>
