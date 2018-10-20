@@ -3,10 +3,11 @@
 @import 'pageTwo';
 @import 'pageThree';
 @import 'pageFour';
+@import 'variables';
 
 .app {
     color: white;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', sans-serif;
 }
 
 .header{
@@ -73,7 +74,7 @@
 }
 
 .my-clock {
-    background-color: #000ce8;
+    background-color: $site-color-blue;
     font-family: 'Lobster', cursive;
     padding-left: 10px;
     padding-top: 4px;
