@@ -2,7 +2,36 @@
 
 .pageTwo {
     &__parallax {
-        background-image: url(../../static/assets/max-nelson-492729-unsplash.jpg);
+        background-image: url(../../static/assets/images/max-nelson-492729-unsplash.jpg);
         @include parallax;
+        padding-top: 60px;
+    }
+
+    &__portfolio__info {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        background-color: #000ce8;
+        height: 150px;
+    }
+
+    &__portfolio__examples {
+        background-color: rgba(0,0,0,0.55);
+        display: grid;
+        align-content: center;
+        justify-items: center;
+        height: 73.4vh;
+    }
+
+    &__portfolio__header {
+        margin-bottom: 0px;
+        font-size: 3.5em;
     }
 }

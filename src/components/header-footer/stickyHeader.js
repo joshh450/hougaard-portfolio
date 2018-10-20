@@ -10,7 +10,7 @@ class TheHeader extends Component {
     header={
         <div className='header'>
         <div className="header__leftColumn">
-            <img className="header__logo" src="/assets/IMG_1112.jpg" />
+            <img className="header__logo" src="/assets/images/IMG_1112.jpg" />
         </div>
 
                 
@@ -19,13 +19,13 @@ class TheHeader extends Component {
                 <div className='link__header' to="/">Home</div>
             </div>
             <div className="header__nav-link">
-                <div className='link__header' to="/menu">Projects and Experience</div>
+                <div className='link__header' to="/projects">Projects and Experience</div>
             </div>
             <div className="header__nav-link">
-                <div className='link__header' to="/contact">About Me</div>
+                <div className='link__header' to="/about">About Me</div>
             </div>
             <div className="header__nav-link">
-                <div className='link__header' to="/contact">Message</div>
+                <div className='link__header' to="/message">Message</div>
             </div>
             <div className="header__nav-link">
                 <Clock />
