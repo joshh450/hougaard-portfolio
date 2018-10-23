@@ -1,8 +1,7 @@
-@import 'parallax';
-
 .pageFour {
     &__parallax {
         background-image: url(../../static/assets/images/parallax.jpg);
         @include parallax;
+        padding-top: 60px;
     }
 }

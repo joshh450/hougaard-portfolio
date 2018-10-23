@@ -1,8 +1,7 @@
-@import 'parallax';
-
 .pageThree {
     &__parallax {
         background-image: url(../../static/assets/images/max-nelson-748768-unsplash.jpg);
         @include parallax;
+        padding-top: 60px;
     }
 }

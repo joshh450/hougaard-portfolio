@@ -1,9 +1,9 @@
+@import 'variables';
 @import 'parallax';
 @import 'pageOne';
 @import 'pageTwo';
 @import 'pageThree';
 @import 'pageFour';
-@import 'variables';
 
 .app {
     color: white;
@@ -83,6 +83,6 @@
 }
 
 .site_examples {
-    height: 270px;
-    width: 473px;
+    height: 220px;
+    width: 440px;
 }
