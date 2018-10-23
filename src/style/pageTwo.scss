@@ -2,7 +2,7 @@
     &__parallax {
         background-image: url(../../static/assets/images/max-nelson-492729-unsplash.jpg);
         @include parallax;
-        height: 200vh;
+        height: 100vh;
         padding-top: 60px;
     }
 
@@ -26,11 +26,17 @@
         display: grid;
         align-content: center;
         justify-items: center;
-        height: 73.4vh;
+        height: 500px;
     }
 
     &__portfolio__header {
         margin-bottom: 0px;
         font-size: 3.5em;
     }
+}
+
+.site_examples {
+    margin-top: 20px;
+    height: 220px;
+    width: 440px;
 }

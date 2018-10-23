@@ -8,22 +8,22 @@ class PageFour extends Component {
           <div className="form">
                 <div className="form-group">
                     <input type="text" id="fullName" placeholder="Your name"></input>
-                    <label for="fullName">Your Name</label>
+                    <label htmlFor="fullName">Your Name</label>
                 </div>
 
                 <div className="form-group">
                     <input type="email" id="email" placeholder="Your email"></input>
-                    <label for="email">Your email</label>
+                    <label htmlFor="email">Your email</label>
                 </div>
 
                 <div className="form-group">
                     <textarea name="subject" id="subject" placeholder="Subject"></textarea>
-                    <label for="subject">Subject</label>
+                    <label htmlFor="subject">Subject</label>
                 </div>
 
                 <div className="form-group">
                     <textarea name="message" id="message" placeholder="Message"></textarea>
-                    <label for="message">Message</label>
+                    <label htmlFor="message">Message</label>
                 </div>
 
                 <div className="centered-btn-wrapper">
