@@ -22,9 +22,10 @@
 
 .form {
     padding-top: 40px;
-    height: 50vh;
+    height: 0vh;
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: 80px 80px 80px 100px 150px;
+    // grid-template-rows: repeat(6, 1fr);
     align-items: center;
     justify-items: center;
     
