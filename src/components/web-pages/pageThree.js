@@ -5,14 +5,9 @@ class PageThree extends Component {
     return (
       <div className='pageThree'>
         <div className="pageThree__parallax">
+        <img className="profile-picture" src="/assets/images/myportfolioimage.jpg" />
           <div className="about-me">
-          <p className="about-me__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras erat lacus, viverra ac semper et, blandit non massa. Ut aliquam enim ac ante laoreet varius. Vestibulum sed efficitur arcu. In faucibus sed est et porta. Sed magna turpis, auctor facilisis ipsum in, euismod varius dui. Nunc sit amet aliquam ante. Donec eu diam felis. Nulla nunc turpis, pulvinar a nisi vel, gravida iaculis nisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam nulla ex, volutpat tempor mauris et, dapibus viverra mauris. Duis eget cursus mi, nec condimentum tortor. Sed vehicula, enim quis dapibus convallis, velit purus luctus augue, a congue eros ligula nec metus. Vivamus gravida ipsum nec tincidunt lacinia.
-
-Curabitur elit mauris, posuere at turpis quis, ullamcorper dapibus ex. Proin viverra vitae dui ut pellentesque. Integer tempor urna id mauris dapibus pulvinar. Vestibulum condimentum enim a erat efficitur volutpat. Proin tristique nulla erat, ut consequat velit finibus pharetra. Duis aliquet lobortis metus vitae sagittis. Vivamus vel lectus nec urna lacinia bibendum. Duis vulputate pellentesque dolor, at consequat neque accumsan a.
-
-Nullam at erat ultricies, luctus felis in, luctus risus. Nunc aliquam rutrum iaculis. Suspendisse scelerisque eu elit a mattis. Ut egestas, tortor vel sagittis ullamcorper, ipsum nulla volutpat dolor, eget scelerisque lectus metus eu ex. Donec blandit mattis tincidunt. Phasellus venenatis id nisl et lacinia. Integer congue pulvinar ex bibendum imperdiet.
-
-Vivamus eget mollis odio. Aliquam non vulputate ex. Donec sed dui nec elit commodo vulputate ut non urna. Maecenas purus ligula, ullamcorper.</p>
+          <p className="about-me__content">Thanks for coming to visit my site! I'm Josh, a 21 year-old web developer. I enjoy utilizing modern development languages and techniques to create simple, clean and elegant web applications. I was born and raised in Orem, UT, and enjoy all the different activities that Utah has to offer. Some of these activities include Snowboarding, Wakeboarding, Longboarding (things with a board I guess?), and pretty much all the other sports. I married my High School Sweetheart and couldn't be happier with that decision. I'm also bilingual, and find speaking Spanish to be very fun. <br></br> I have experience building single and multi-page web applications. I follow industry best practices and standards to create amazing projects. My strongest languages are React.js, Javascript, JQuery, HTML, SCSS, Flexbox, CSS grid, and Redux, though I'm certified in many more. I’ve worked in various positions and capacities over my career, many of which gave me the opportunity to work with people and assist them with questions or needs. I've gained experience in teaching settings, and have developed a hard work ethic and mindset. </p>
           </div>
         </div>
       </div>

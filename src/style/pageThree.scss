@@ -1,11 +1,25 @@
 .pageThree {
     &__parallax {
-        background-image: url(../../static/assets/images/max-nelson-748768-unsplash.jpg);
+        background-image: url(../../static/assets/images/parallax.jpg);
         @include parallax;
         padding-top: 60px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
     }
 }
 
 .about-me {
     width: 1000px;
+    font-size: 1.1em;
+    background-color: rgba(37, 155, 227, 0.65);
+    border-radius: 40px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    grid-template-rows: 1fr 1000px 1fr;
+    border-radius:  200px;
+    margin-top: 30px;
 }
