@@ -4,4 +4,67 @@
         @include parallax;
         padding-top: 60px;
     }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        background-color: $site-color-blue;
+        height: 60px;
+        @include box-shadow-bottom;
+    }
+
+    &__portfolio__header {
+        margin-bottom: 0px;
+        font-size: 1.5em;
+    }
+}
+
+.form {
+    padding-top: 40px;
+    height: 50vh;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    justify-items: center;
+    
+    &__group {
+        font-size: 1.3em;
+        height: 100px;
+    }
+}
+
+.fullName, .email {
+    @include message-form-components;
+}
+
+.subject {
+    @include message-form-components;
+    width: 500px;
+}
+
+.fullName, .email, .subject, .message, .btn:focus {
+    outline: none;
+}
+
+.message {
+    width: 1200px;
+    height: 200px;
+    border-radius: 40px;
+    padding-left: 36px;
+    padding-top: 20px;
+    font-size: 1.1em;
+    border-color: $site-color-blue;
+}
+
+.centered-btn-wrapper {
+    margin-top: 150px;
+}
+
+.btn {
+    color: white;
+    font-size: 1.3em;
+    background-color: $site-color-blue;
+    width: 150px;
+    border-radius: 20px;
 }

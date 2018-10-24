@@ -5,25 +5,28 @@ class PageFour extends Component {
     return (
       <div className='pageFour'>
         <div className="pageFour__parallax">
+        <div className="pageFour__title">
+            <h1 className="pageFour__portfolio__header">Message</h1>
+        </div>  
           <div className="form">
-                <div className="form-group">
-                    <input type="text" id="fullName" placeholder="Your name"></input>
-                    <label htmlFor="fullName">Your Name</label>
+                <div className="form__group">
+                    <input type="text" className="fullName" placeholder="Your name"></input>
+                    {/* <label htmlFor="fullName">Your Name</label> */}
                 </div>
 
-                <div className="form-group">
-                    <input type="email" id="email" placeholder="Your email"></input>
-                    <label htmlFor="email">Your email</label>
+                <div className="form__group">
+                    <input type="email" className="email" placeholder="Your email"></input>
+                    {/* <label htmlFor="email">Your email</label> */}
                 </div>
 
-                <div className="form-group">
-                    <textarea name="subject" id="subject" placeholder="Subject"></textarea>
-                    <label htmlFor="subject">Subject</label>
+                <div className="form__group">
+                    <input name="subject" className="subject" placeholder="Subject"></input>
+                    {/* <label htmlFor="subject">Subject</label> */}
                 </div>
 
-                <div className="form-group">
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                    <label htmlFor="message">Message</label>
+                <div className="form__group">
+                    <textarea name="message" className="message" placeholder="Message"></textarea>
+                    {/* <label htmlFor="message">Message</label> */}
                 </div>
 
                 <div className="centered-btn-wrapper">
