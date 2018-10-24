@@ -22,5 +22,9 @@
         align-self: end;
         justify-self: end;
         font-size: 2em;
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
     }
 }
