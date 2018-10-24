@@ -11,10 +11,10 @@ class PageOne extends Component {
                   <h2>React, Python and JavaScript Developer</h2>
               </div>
               <div className="homepage-socialmedia__nav-links">
-                <i className="fab fa-linkedin-in"></i>
-                <i className="fab fa-github"></i>
-                <i className="fab fa-codepen"></i>
-                <i className="fab fa-facebook-f"></i>
+                <a className ="nav-link" href="https://www.linkedin.com/in/joshua-hougaard" target="blank"><i className="fab fa-linkedin-in"></i></a>
+                <a className ="nav-link" href="https://github.com/joshh450" target="blank"><i className="fab fa-github"></i></a>
+                <a className ="nav-link" href="https://codepen.io/joshh450" target="blank"><i className="fab fa-codepen"></i></a>
+                <a className ="nav-link" href="https://www.facebook.com/people/Joshua-Hougaard/100000954410951" target="blank"><i className="fab fa-facebook-f"></i></a>
             </div>
             </div>
         </div>

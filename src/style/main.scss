@@ -67,7 +67,21 @@
         justify-items: center;
         align-items: center;
     }
+
+    &__nav-link {
+        font-size: 1.25em;
+    }
 }
+
+.nav-link {
+    color: white;
+    margin: 0px;
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
 .socialmedia__nav-links {
     font-size: 2em;
     width: 350px;
