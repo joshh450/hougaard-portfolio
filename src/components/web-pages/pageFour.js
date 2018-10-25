@@ -8,31 +8,31 @@ class PageFour extends Component {
         <div className="pageFour__title">
             <h1 className="pageFour__portfolio__header">Message</h1>
         </div>  
-          <div className="form">
+          <form className="form" action="mailto:joshua.hougaard@gmail.com?subject=Hello from your Website" method="post" enctype="text/plain">
                 <div className="form__group">
-                    <input type="text" className="fullName" placeholder="Your name"></input>
+                    <input name="Name" type="text" className="fullName" placeholder="Your name"></input>
                     {/* <label htmlFor="fullName">Your Name</label> */}
                 </div>
 
                 <div className="form__group">
-                    <input type="email" className="email" placeholder="Your email"></input>
+                    <input name="Email" type="email" className="email" placeholder="Your email"></input>
                     {/* <label htmlFor="email">Your email</label> */}
                 </div>
 
                 <div className="form__group">
-                    <input name="subject" className="subject" placeholder="Subject"></input>
+                    <input name="Subject" className="subject" placeholder="Subject"></input>
                     {/* <label htmlFor="subject">Subject</label> */}
                 </div>
 
                 <div className="form__group">
-                    <textarea name="message" className="message" placeholder="Message"></textarea>
+                    <textarea name="Message" className="message" placeholder="Message"></textarea>
                     {/* <label htmlFor="message">Message</label> */}
                 </div>
 
                 <div className="centered-btn-wrapper">
                     <button type="submit" className="btn">Send</button>
                 </div>
-            </div>
+            </form>
           </div>
       </div>
     );
