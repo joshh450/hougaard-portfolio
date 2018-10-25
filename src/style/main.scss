@@ -1,76 +1,15 @@
 @import 'variables';
+@import 'header';
 @import 'parallax';
 @import 'pageOne';
 @import 'pageTwo';
 @import 'pageThree';
 @import 'pageFour';
+@import 'footer';
 
 .app {
     color: white;
     font-family: 'Roboto Slab', sans-serif;
-}
-
-.header{
-    font-size: 1.1em;
-    background-color: rgba(0,0,0,0.35);
-    height: 60px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 100px 1fr;
-
-    &__logo {
-        width: 60px;
-        height: 60px;
-        border-radius: 30px;
-    }
-
-    &__rightColumn {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr) 100px;;
-    }
-
-    &__nav-link {
-        display: grid;
-        height: 60px;
-        justify-items: center;
-        align-items: center;
-    }
-}
-
-.footer{
-    background-color: black;
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 100px 1fr;
-    padding: 15vh 0;
-
-    &__topRow {
-        display: grid;
-        margin-top: 30px;
-        justify-items: center;
-        align-items: center;
-    }
-
-    &__logo {
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-    }
-
-    &__bottomRow {
-        font-size: 1.1em;
-        display: grid;
-        margin-top: 40px;
-        margin-bottom: 20px;
-        grid-template-rows: repeat(5, 1fr);
-        justify-items: center;
-        align-items: center;
-    }
-
-    &__nav-link {
-        font-size: 1.25em;
-    }
 }
 
 .nav-link {

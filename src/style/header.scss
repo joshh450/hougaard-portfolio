@@ -1,0 +1,26 @@
+.header{
+    font-size: 1.1em;
+    background-color: rgba(0,0,0,0.35);
+    height: 60px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+
+    &__logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+    }
+
+    &__rightColumn {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) 100px;;
+    }
+
+    &__nav-link {
+        display: grid;
+        height: 60px;
+        justify-items: center;
+        align-items: center;
+    }
+}
