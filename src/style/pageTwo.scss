@@ -27,6 +27,14 @@
         align-content: center;
         justify-items: center;
         height: 500px;
+        
+        &__links {
+            color: white;
+        }
+        &__links:hover {
+            color: $site-color-blue;
+            text-decoration: none;
+        }
     }
 
     &__portfolio__header {
