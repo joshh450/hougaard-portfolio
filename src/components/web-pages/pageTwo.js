@@ -4,7 +4,7 @@ class PageTwo extends Component {
   render() {
     return (
       <div className='pageTwo'>
-      <a id="experience" class="smooth"></a>
+      <a id="experience" class="smooth anchor"></a>
         <div className="pageTwo__parallax">
           <div className="pageTwo__title">
             <h1 className="pageTwo__portfolio__header">Projects and Experience</h1>
