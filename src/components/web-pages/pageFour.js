@@ -8,7 +8,7 @@ class PageFour extends Component {
         <div className="pageFour__title">
             <h1 className="pageFour__portfolio__header">Message</h1>
         </div>  
-          <form className="form" action="mailto:joshua.hougaard@gmail.com?subject=Hello from your Website" method="post" enctype="text/plain">
+          <form className="form" action="mailto:joshua.hougaard@gmail.com?subject=Hello from your Website" method="post" encType="text/plain">
                 <div className="form__group">
                     <input name="Name" type="text" className="fullName" placeholder="Your name"></input>
                     {/* <label htmlFor="fullName">Your Name</label> */}

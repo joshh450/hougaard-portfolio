@@ -30,9 +30,22 @@
         
         &__links {
             color: white;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+
+            &__paragraphs {
+                margin-top: 0;
+                margin-bottom: 1rem;
+                padding-left: 30px;
+                padding-right: 10px;
+                align-self: center;
+                display: flex;
+            }
         }
         &__links:hover {
-            color: $site-color-blue;
+            color: rgb(117, 210, 250);
             text-decoration: none;
         }
     }

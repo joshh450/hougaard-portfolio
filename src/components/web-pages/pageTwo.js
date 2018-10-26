@@ -13,7 +13,7 @@ class PageTwo extends Component {
             <div className="pageTwo__portfolio__examples">
               <a className="pageTwo__portfolio__examples__links" href="https://sensuous-sandwichs.herokuapp.com" target="blank">
                 <h3>Sensuous Sandwich Project</h3>
-                <p>Development team and I built a demo site for Sensuous Sandwich in one day. Click to visit!</p>
+                <p className="pageTwo__portfolio__examples__links__paragraphs">Development team and I built a demo site for Sensuous Sandwich in one day. Click to visit!</p>
                 <img className="site_examples" src="/assets/images/sensuous-sandwich.png" />
               </a>
             </div>
@@ -21,7 +21,7 @@ class PageTwo extends Component {
             <div className="pageTwo__portfolio__examples">
               <a className="pageTwo__portfolio__examples__links" href="https://jh-course-scheduler.herokuapp.com" target="blank">
                 <h3>Class Scheduler App</h3>
-                <p>I created a course scheduler application using React and JavaScript. Click to visit!</p>
+                <p className="pageTwo__portfolio__examples__links__paragraphs">I created a course scheduler application using React and JavaScript. Click to visit!</p>
                 <img className="site_examples" src="/assets/images/course-scheduler.png" />
               </a>
             </div>
@@ -29,7 +29,7 @@ class PageTwo extends Component {
             <div className="pageTwo__portfolio__examples">
               <a className="pageTwo__portfolio__examples__links" href="https://jh-madlibs.herokuapp.com" target="blank">
                 <h3>Mad Libs App</h3>
-                <p>I created a Mad Libs game with a very clean UI using React and JavaScript. Click to visit!</p>
+                <p className="pageTwo__portfolio__examples__links__paragraphs">I created a Mad Libs game with a very clean UI using React and JavaScript. Click to visit!</p>
                 <img className="site_examples" src="/assets/images/mad-libs.png" />
               </a>
             </div>

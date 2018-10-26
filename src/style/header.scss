@@ -14,7 +14,7 @@
 
     &__rightColumn {
         display: grid;
-        grid-template-columns: repeat(4, 1fr) 100px;;
+        grid-template-columns: repeat(4, 1fr) 130px;;
     }
 
     &__nav-link {
@@ -23,4 +23,14 @@
         justify-items: center;
         align-items: center;
     }
+}
+
+.my-clock {
+    background-color: $site-color-blue;
+    font-family: 'Lobster', cursive;
+    padding-left: 22px;
+    padding-top: 4px;
+    box-shadow: inset 0px 1px 5px 4px rgba(0,0,0,0.25);
+    height: 60px;
+    border-radius: 3px;
 }

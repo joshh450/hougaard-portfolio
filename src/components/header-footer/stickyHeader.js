@@ -10,7 +10,7 @@ class TheHeader extends Component {
     header={
         <div className='header'>
         <div className="header__leftColumn">
-            <img className="header__logo" src="/assets/images/IMG_1112.jpg" />
+            <img className="header__logo" src="/assets/images/jh-logo.jpeg" />
         </div>
 
                 
