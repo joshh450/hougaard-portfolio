@@ -4,7 +4,7 @@ class PageFour extends Component {
   render() {
     return (
       <div className='pageFour'>
-      <a id="message" class="smooth anchor"></a>
+      <a id="message" className="smooth anchor"></a>
         <div className="pageFour__parallax">
         <div className="pageFour__title">
             <h1 className="pageFour__portfolio__header">Message</h1>
