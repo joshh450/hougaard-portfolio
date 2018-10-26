@@ -4,6 +4,7 @@ class PageOne extends Component {
   render() {
     return (
       <div className='pageOne'>
+      <a id="home" class="smooth"></a>
         <div className="pageOne__parallax">
             <div className="pageOne__initialinfo">
               <div className="pageOne__initialinfo__content">

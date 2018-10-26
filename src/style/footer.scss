@@ -4,7 +4,7 @@
     width: 100%;
     display: grid;
     grid-template-rows: 100px 1fr;
-    padding: 15vh 0;
+    padding: 16vh 0;
 
     &__topRow {
         display: grid;
@@ -31,5 +31,13 @@
 
     &__nav-link {
         font-size: 1.25em;
+    }
+}
+
+.link__footer {
+    color: white;
+    &:hover {
+        color: $site-color-blue;
+        text-decoration: none;
     }
 }

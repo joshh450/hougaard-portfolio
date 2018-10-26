@@ -4,6 +4,7 @@ class PageThree extends Component {
   render() {
     return (
       <div className='pageThree'>
+      <a id="about" class="smooth"></a>
         <div className="pageThree__parallax">
             <img className="profile-picture" src="/assets/images/myportfolioimage.jpg" />
             <div className="about-me">

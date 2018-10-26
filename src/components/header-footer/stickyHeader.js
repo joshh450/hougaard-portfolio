@@ -16,16 +16,16 @@ class TheHeader extends Component {
                 
         <div className="header__rightColumn">
             <div className="header__nav-link">
-                <div className='link__header'>Home</div>
+                <a href="#home" className='link__header'>Home</a>
             </div>
             <div className="header__nav-link">
-                <div className='link__header'>Projects and Experience</div>
+                <a href="#experience" className='link__header'>Projects and Experience</a>
             </div>
             <div className="header__nav-link">
-                <div className='link__header'>About Me</div>
+                <a href="#about" className='link__header'>About Me</a>
             </div>
             <div className="header__nav-link">
-                <div className='link__header'>Message</div>
+                <a href="#message" className='link__header'>Message</a>
             </div>
             <div className="header__nav-link">
                 <Clock />

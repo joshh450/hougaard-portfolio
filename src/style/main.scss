@@ -27,3 +27,26 @@
     display: flex;
     justify-content: space-between;
 }
+
+// .app {
+//     display: grid;
+//     grid-template-rows: 60px 1fr;
+//     grid-template-columns: 1fr;
+
+//     &__header {
+//         grid-row: 1/2;
+//         grid-column: 1/-1;
+//     }
+//     &__content {
+//         & > * {
+//             height: 100%;
+//         }
+//         grid-row: 2/3;
+//         grid-column: 1/-1;
+//     }
+// }
+
+// a {
+//     padding-top: 60px !important;
+//     margin-top: -60px !important;
+// }

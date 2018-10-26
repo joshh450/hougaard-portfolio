@@ -11,16 +11,16 @@ class Footer extends Component {
                 
         <div className="footer__bottomRow">
             <div className="footer__nav-link">
-                <div className='link__footer' to="/">Home</div>
+                <a href="#home" className='link__footer'>Home</a>
             </div>
             <div className="footer__nav-link">
-                <div className='link__footer' to="/menu">Projects and Experience</div>
+                <a href="#experience" className='link__footer'>Projects and Experience</a>
             </div>
             <div className="footer__nav-link">
-                <div className='link__footer' to="/contact">About Me</div>
+                <a href="#about" className='link__footer'>About Me</a>
             </div>
             <div className="footer__nav-link">
-                <div className='link__footer' to="/contact">Message</div>
+                <a href="#message" className='link__footer'>Message</a>
             </div>
             <div className="socialmedia__nav-links">
                 <a className ="nav-link" href="https://www.linkedin.com/in/joshua-hougaard" target="blank"><i className="fab fa-linkedin-in"></i></a>

@@ -2,7 +2,7 @@
     &__parallax {
         background-image: url(../../static/assets/images/parallax.jpg);
         @include parallax;
-        padding-top: 60px;
+        // padding-top: 60px;
         display: grid;
         align-items: center;
         justify-items: center;

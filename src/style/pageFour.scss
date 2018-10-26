@@ -2,7 +2,7 @@
     &__parallax {
         background-image: url(../../static/assets/images/max-nelson-748768-unsplash.jpg);
         @include parallax;
-        padding-top: 60px;
+        // padding-top: 60px;
     }
     &__title {
         display: flex;
